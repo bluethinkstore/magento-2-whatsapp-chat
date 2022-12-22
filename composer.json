@@ -1,5 +1,5 @@
 {
-    "name": "bluethinkinc/magento2-module-whatsapp-button",
+    "name": "Bluethinkinc/whatsappchat",
     "description": "WhatsApp Chat Button",
     "type": "magento2-module",
     "minimum-stability": "dev",
