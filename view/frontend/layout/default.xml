@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Bluethinkinc_WhatsAppChat::css/whatsappchat-button.css" />
+    </head>
+    <body>
+        <referenceContainer name="before.body.end">
+            <block class="Bluethinkinc\WhatsAppChat\Block\Button" name="bluethink_whatsapp_chat_button" ifconfig="whatsapp/general/enable"
+                   template="Bluethinkinc_WhatsAppChat::whatsapp_chat_button/button.phtml"
+                   before="before.body.end">
+            </block>
+        </referenceContainer>
+    </body>
+</page>

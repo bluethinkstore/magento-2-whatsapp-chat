@@ -1,0 +1,13 @@
+<?php
+/**
+ * Copyright © Bluethink All rights reserved.
+ * See COPYING.txt for license details.
+ */
+ 
+/** @var \Bluethinkinc\WhatsAppChat\Block\Button $block */
+?>
+
+<a href="<?= $block->escapeUrl($block->getButtonUrl()) ?>"
+   class="bt-whatsappchat-button <?= $block->escapeHtmlAttr($block->getButtonPosition()) ?>" target="_blank">
+   <img src="<?= $block->escapeUrl($block->getButtonImageUrl()) ?>" />
+</a>
